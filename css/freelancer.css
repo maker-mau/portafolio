@@ -90,14 +90,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-/*ESTE LO AGREGE PAR ALA IMAGEN REDONDA*/
-imgRedonda {
-    width:300px;
-    height:300px;
-    border-radius:150px;
-    border:10px solid #666;
-}
-/*AQUI LLEGA MI AGREGADO*/
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -497,7 +490,14 @@ mark,
   max-width: 100%;
   height: auto;
 }
-
+/*ESTE LO AGREGE PAR ALA IMAGEN REDONDA*/
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+}
+/*AQUI LLEGA MI AGREGADO*/
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
